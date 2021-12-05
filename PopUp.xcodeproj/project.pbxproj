@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2E5577275D0E1500D7A5D7 /* CoordinatePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5576275D0E1500D7A5D7 /* CoordinatePreferenceKey.swift */; };
+		DB2E557A275D0E9D00D7A5D7 /* Extension + AnyTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E5579275D0E9D00D7A5D7 /* Extension + AnyTransition.swift */; };
 		DB96BCC626F3002A001AD942 /* PopUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96BCC526F3002A001AD942 /* PopUpApp.swift */; };
 		DB96BCC826F3002A001AD942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96BCC726F3002A001AD942 /* ContentView.swift */; };
 		DB96BCCA26F3002D001AD942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB96BCC926F3002D001AD942 /* Assets.xcassets */; };
 		DB96BCCD26F3002D001AD942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB96BCCC26F3002D001AD942 /* Preview Assets.xcassets */; };
+		DB96BCD526F3006C001AD942 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96BCD426F3006C001AD942 /* Triangle.swift */; };
+		DB96BCD926F301BA001AD942 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96BCD826F301BA001AD942 /* PopUpView.swift */; };
+		DB96BCDB26F30619001AD942 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DB96BCDA26F30619001AD942 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2E5576275D0E1500D7A5D7 /* CoordinatePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatePreferenceKey.swift; sourceTree = "<group>"; };
+		DB2E5579275D0E9D00D7A5D7 /* Extension + AnyTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + AnyTransition.swift"; sourceTree = "<group>"; };
 		DB96BCC226F3002A001AD942 /* PopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB96BCC526F3002A001AD942 /* PopUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpApp.swift; sourceTree = "<group>"; };
 		DB96BCC726F3002A001AD942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB96BCC926F3002D001AD942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB96BCCC26F3002D001AD942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB96BCCE26F3002D001AD942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB96BCD426F3006C001AD942 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		DB96BCD826F301BA001AD942 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		DB96BCDA26F30619001AD942 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2E5578275D0E4A00D7A5D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB2E5579275D0E9D00D7A5D7 /* Extension + AnyTransition.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		DB96BCB926F3002A001AD942 = {
 			isa = PBXGroup;
 			children = (
+				DB96BCDA26F30619001AD942 /* .gitignore */,
 				DB96BCC426F3002A001AD942 /* PopUp */,
 				DB96BCC326F3002A001AD942 /* Products */,
 			);
@@ -53,7 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				DB96BCC526F3002A001AD942 /* PopUpApp.swift */,
-				DB96BCC726F3002A001AD942 /* ContentView.swift */,
+				DB96BCDC26F30651001AD942 /* Views */,
+				DB96BCDD26F30669001AD942 /* Shapes */,
+				DB2E5578275D0E4A00D7A5D7 /* Extensions */,
 				DB96BCC926F3002D001AD942 /* Assets.xcassets */,
 				DB96BCCE26F3002D001AD942 /* Info.plist */,
 				DB96BCCB26F3002D001AD942 /* Preview Content */,
@@ -67,6 +88,24 @@
 				DB96BCCC26F3002D001AD942 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB96BCDC26F30651001AD942 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB96BCC726F3002A001AD942 /* ContentView.swift */,
+				DB96BCD826F301BA001AD942 /* PopUpView.swift */,
+				DB2E5576275D0E1500D7A5D7 /* CoordinatePreferenceKey.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB96BCDD26F30669001AD942 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				DB96BCD426F3006C001AD942 /* Triangle.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB96BCCD26F3002D001AD942 /* Preview Assets.xcassets in Resources */,
+				DB96BCDB26F30619001AD942 /* .gitignore in Resources */,
 				DB96BCCA26F3002D001AD942 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2E5577275D0E1500D7A5D7 /* CoordinatePreferenceKey.swift in Sources */,
+				DB96BCD926F301BA001AD942 /* PopUpView.swift in Sources */,
+				DB96BCD526F3006C001AD942 /* Triangle.swift in Sources */,
+				DB2E557A275D0E9D00D7A5D7 /* Extension + AnyTransition.swift in Sources */,
 				DB96BCC826F3002A001AD942 /* ContentView.swift in Sources */,
 				DB96BCC626F3002A001AD942 /* PopUpApp.swift in Sources */,
 			);
@@ -197,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
