@@ -19,9 +19,10 @@ struct ContentView: View {
                 title: "Quote",
                 color: .white,
                 width: 300,
-                height: 100) {
-                    "Life is like a box of chocolates, you never know what you’re gonna get."
-                }
+                height: 100
+            ) {
+                "Life is like a box of chocolates, you never know what you’re gonna get."
+            }
         }
     }
 }
