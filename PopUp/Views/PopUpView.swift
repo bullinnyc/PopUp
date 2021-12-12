@@ -53,6 +53,11 @@ struct PopUpView: View {
                                     x: questionMidX,
                                     y: geometry.size.height + triangleSize * 0.5
                                 )
+                                .opacity(
+                                    geometry.size.width < (questionMidX + triangleSize * 0.7)
+                                    ? 0
+                                    : 1
+                                )
                         }
                         .opacity(0.9)
                         .foregroundColor(color)
