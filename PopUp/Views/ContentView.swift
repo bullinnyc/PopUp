@@ -16,11 +16,11 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             PopUpView(
-                title: "Title",
+                title: "Quote",
                 color: .white,
                 width: 300,
                 height: 100) {
-                    "Some text"
+                    "Life is like a box of chocolates, you never know what you’re gonna get."
                 }
         }
     }
